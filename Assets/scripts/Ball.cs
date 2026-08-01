@@ -39,13 +39,13 @@ public class Ball : MonoBehaviour, IPointerClickHandler
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void SetcolorAndPoint(Ballcolor col)
@@ -63,7 +63,7 @@ public class Ball : MonoBehaviour, IPointerClickHandler
                 break;
 
             case Ballcolor.Yellow:
-                point = 2; 
+                point = 2;
                 rd.material.color = Color.yellow;
                 break;
 
@@ -82,7 +82,7 @@ public class Ball : MonoBehaviour, IPointerClickHandler
                 rd.material.color = Color.blue;
                 break;
 
-            case Ballcolor.Pink: 
+            case Ballcolor.Pink:
                 point = 6;
                 rd.material.color = Color.pink;
                 break;
@@ -93,4 +93,5 @@ public class Ball : MonoBehaviour, IPointerClickHandler
                 break;
 
         }
+    }
 }
