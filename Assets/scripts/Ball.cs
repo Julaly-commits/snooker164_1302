@@ -16,6 +16,7 @@ public class Ball : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField]
     private int point;
+    public int Point {  get { return point; } set { point = value; } }
 
     [SerializeField]
     private Ballcolor color;
